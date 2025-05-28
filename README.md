@@ -27,3 +27,12 @@ SIGNIFICADOS
 404 -- NOT FOUND
 
 generate_password_hash --- encripta la contraseña
+*Poner claves en archivos es un error tipico
+*El objeto g(global) existe hasta que termina el request
+*Si se borra de la base de datos el usuario que esta logeado
+*Si se borra las cookies el navegador no se entera a menos que recargues la página ()
+que pasa si borro el usuario de la base de datos? en g.user se queda guardado None porque es como si *no estuviera logeado
+*fetchall -- si no hay nada devuelve una lista vacia
+*PLANTILLA -- puede contener datos estáticos o datos dinámicos
+*extens(extiende) -- vincula un archivo(html) anterior con el actual/ una plantilla se puede conectar con otra
+*como se convina dos html?
